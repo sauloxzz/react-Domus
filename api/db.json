@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "email": "jacquin@bolos.com",
+      "senha": "1234"
+    }
+  ],
+  "bolos": [
+    {
+      "nome": "Geladeira Brastemp Branca",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "Elegância que cabe no tamanho ideal: com impressionantes 588 litros de capacidade total, sendo cerca de 400 L para refrigerador e 188 L para freezer, esse modelo inverse — com o freezer na parte inferior — traz praticidade para o dia a dia.",
+      "imagens": [
+        "3458546845741.png"
+      ],
+      "id": "f5r1",
+      "preco": 50,
+      "peso": 1.5
+    },
+    {
+      "nome": "Geladeira Electrolux Frost Free ",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "Com capacidade de 431 litros, acabamento “Inox Look” sofisticado e tecnologia inteligente, esta geladeira duplex da Electrolux foi projetada para oferecer praticidade e performance",
+      "imagens": [
+        ""
+      ],
+      "id": "a38h",
+      "preco": 59.99,
+      "peso": 1.2
+    },
+    {
+      "nome": "Cenoura com Chocolate",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "Bolo macio cenoura com cobertura de chocolate, um sabor família e irresistível.",
+      "imagens": [
+        "4791205837462.png"
+      ],
+      "id": "bb85",
+      "preco": 39.99,
+      "peso": 1.4
+    },
+    {
+      "nome": "Ninho com Morango",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "",
+      "imagens": [
+        "6502837192043.png"
+      ],
+      "id": "a77q",
+      "preco": 45.5,
+      "peso": null
+    },
+    {
+      "nome": "Chocolate com Pistache",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "Bolo macio de leite Ninho, com creme delicado e crocante de amendoim para um sabor irresistível.",
+      "imagens": [
+        "1983745601290.png"
+      ],
+      "id": "889e",
+      "preco": 75.49,
+      "peso": 0.9
+    },
+    {
+      "nome": "Chocolate com Oreo",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "",
+      "imagens": [
+        "7021948563207.png"
+      ],
+      "id": "12ww",
+      "preco": 49.99,
+      "peso": 1.4
+    },
+    {
+      "nome": "Morango com creme",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "Bolo macio de Morango, com recheio cremoso para um sabor irresistível.",
+      "imagens": [
+        ""
+      ],
+      "id": "1ny1",
+      "preco": 41.7,
+      "peso": null
+    },
+    {
+      "nome": "Red-velvet",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "Massa aveludada com recheio suave, combinando sabor marcante e textura delicada em cada fatia.",
+      "imagens": [
+        "5428564784294.png"
+      ],
+      "id": "awe7",
+      "preco": 54.9,
+      "peso": 1.1
+    },
+    {
+      "nome": "Passas",
+      "categorias": [
+        "natal"
+      ],
+      "descricao": "Tradicional bolo natalino com massa macia, perfeito para celebrar com um toque de sabor clássico.",
+      "imagens": [
+        "8754856321485.png"
+      ],
+      "id": "8jy2",
+      "preco": 42,
+      "peso": 1.3
+    },
+    {
+      "nome": "Coco recheado",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "Massa fofinha de coco com recheio cremoso e envolvente, trazendo um sabor tropical irresistível.",
+      "imagens": [
+        "9786134582154.png"
+      ],
+      "id": "33u3",
+      "preco": 46.9,
+      "peso": null
+    },
+    {
+      "nome": "Bolo de casamento",
+      "categorias": [
+        "Geladeiras"
+      ],
+      "descricao": "Elegante e saboroso, ideal para celebrar momentos únicos com um toque de doçura inesquecível.",
+      "imagens": [
+        "7852364781455.png"
+      ],
+      "id": "d7ty",
+      "preco": 120,
+      "peso": 2.5
+    }
+  ]
+}
