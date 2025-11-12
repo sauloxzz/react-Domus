@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", system-ui;
+}
+
+body{
+  background-color: #d6dae4;
+}
+
+#sombra {
+  width: 100vw;
+  height: 200px;
+  background-color: #1B5C8865;
+  position: fixed;
+  z-index: 2;
+  backdrop-filter: blur(30px);
+  top: -210px;
+  overflow-y: hidden;
+  transition: .5s;
+}
+
+.container_cabecalho {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1440px;
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+}
+
+.icone_home {
+  height: 50px;
+}
+
+.box_busca {
+  position: relative;
+  width: 60%;
+  max-width: 500px;
+  margin: 0 10px;
+}
+
+.icone_lupa {
+  height: 24px;
+  position: absolute;
+  left: 9px;
+  top: 9px;
+  fill: #b0b0b0;
+}
+
+.logo {
+  height: 60px;
+}
+
+.campo_busca {
+  width: 100%;
+  height: 42px;
+  border-radius: 10px;
+  border: solid 1px #cccccc;
+  padding-left: 2.5rem;
+  font-size: 1rem;
+}
+
+.menu_barras {
+  width: 50px;
+  color: #000000;
+  display: none;
+  z-index: 2;
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+  /* background-color: blueviolet; */
+}
+
+.titulo span {
+  font-size: 48px;
+
+}
+
+.titulo hr {
+  width: 300px;
+  height: 4px;
+  border: none;
+  border-radius: 2px;
+  background-color: #000000;
+}
+
+.acessivel {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* CARDS */
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: center;
+  font-size: small;
+}
+
+.card_produto{
+  width: 350px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  box-shadow: 0 4px 4px 2px #00000025;
+}
+
+.card_produto img{
+  width: 70%;
+}
+
+.card_produto p,
+.card_produto span{
+  font-size: 18px;
+  width: 90%;
+}
+
