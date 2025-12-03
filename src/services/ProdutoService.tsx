@@ -1,7 +1,7 @@
 import axios from "axios";
-import type { Geladeira } from '../types/Geladeira';
+import type { Produtos } from '../types/Produtos';
 
-export const getGeladeiras = async (): Promise<Geladeira[]> => {
+export const getProdutos = async (): Promise<Produtos[]> => {
     try {
         const resposta = await axios.get("http://localhost:3000/geladeiras")
         return resposta.data

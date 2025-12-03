@@ -1,4 +1,4 @@
-export interface Geladeira {
+export interface Produtos {
     nome: string;
     descricao: string;
     id: string | undefined;

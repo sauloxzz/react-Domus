@@ -117,7 +117,7 @@
   "microondas": [
     {
       "nome": "Micro-ondas Branco Philco",
-      "categorias": ["Microondas"],
+      "categorias": ["microondas"],
       "descricao": "Design clean e funções práticas. Aquece e descongela com eficiência. Combina com qualquer cozinha.",
       "imagens": ["Microondas branco philco.jpg"],
       "id": "m1",
@@ -126,7 +126,7 @@
     },
     {
       "nome": "Micro-ondas Electrolux",
-      "categorias": ["Microondas"],
+      "categorias": ["microondas"],
       "descricao": "Tecnologia e praticidade no preparo diário. Funções inteligentes para aquecer e descongelar. Moderno e eficiente.",
       "imagens": ["Microondas Electrolux.jpg"],
       "id": "m2",
