@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react'
 import { useLocation, useParams } from 'react-router-dom'
 import './Produtos.css';
-import type { Produto } from '../../types/Produtos'
+import type { Produtos } from '../../types/Produtos'
 import { getProdutos } from '../../services/ProdutoService'
 import CardProduto from '../../components/CardProduto/CardProduto'
 import Carrossel from '../../components/Carrossel/Carrossel'
 import Header from '../../components/Header/Header'
 
-export default function Produtos() {
-  const [produtos, setProdutos] = useState<Produto[]>([]);
+export default function Produtos1() {
+  const [produtos, setProdutos] = useState<Produtos[]>([]);
   const location = useLocation();
 
   const parametrosPesquisados = new URLSearchParams(location.search);
@@ -64,7 +64,7 @@ export default function Produtos() {
         </section>
         <section className="cards">
           {
-            produtos.map((p: Produto) => (
+            produtos.map((p: Produtos) => (
               <CardProduto
                 key={p.nome}
                 nome={p.nome}
